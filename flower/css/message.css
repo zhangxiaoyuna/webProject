@@ -1,0 +1,327 @@
+.nav {
+    width: 100%;
+    height: 79px;
+    background: #ffffff;
+    z-index: 999;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+.navList li {
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+
+.navList li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: .5s;
+}
+
+/*当鼠标移上时,变颜色*/
+.navList li a:hover {
+    color: #16b0bc;
+}
+
+
+/*nav*/
+.empty {
+    width: 100%;
+    height: 79px;
+}
+
+/*empty*/
+.home {
+    width: 100%;
+    height: 940px;
+    background: #f5f5f5;
+}
+
+.home .title {
+    width: 100%;
+    height: 120px;
+}
+
+.title h3 {
+    text-align: center;
+    line-height: 120px;
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.home .homeContent {
+    width: 100%;
+    height: 760px;
+    padding: 30px 0px;
+}
+
+.homeContent .content {
+    width: 1230px;
+    height: 760px;
+    margin: 0 auto;
+}
+
+.content .firstContent {
+    float: left;
+    width: 780px;
+    height: 700px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    background: #ffffff;
+}
+.firstContent .container{
+    width: 100%;
+    height: 100%;
+}
+.container ul{
+    width: 100%;
+    height: 660px;
+}
+.container ul .group{
+    width: 100%;
+    height: 59px;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f2f5;
+    margin-bottom: -1px;
+}
+.container ul .groupOther{
+    width: 100%;
+    height: 132px;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f2f5;
+    margin-bottom: -1px;
+}
+.group .groupBody, .groupOther .groupOtherBody{
+    width: 100%;
+    height: 100%;
+}
+.groupBody .groupLeft,.groupOtherBody .groupOtherLeft{
+    float: left;
+    width: 46px;
+    height: 53px;
+}
+.groupLeft .people,.groupOtherLeft .people{
+    font-family: "iconfont";
+    font-size: 36px;
+    color: #a3afb7;
+}
+.groupBody .groupRight{
+    float: left;
+    width: 734px;
+    height: 53px;
+    position: relative;
+}
+.groupOtherBody .groupOtherRight{
+    float: left;
+    width: 734px;
+    height: 120px;
+    position: relative;
+}
+
+.groupRight h4, .groupOtherRight h4{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.groupRight p, .groupOtherRight p{
+    font-size: 14px;
+    color: #76838f;
+    margin-bottom: 5px;
+}
+.groupRight .time, .groupOtherRight .time{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+    color: #a3afb7;
+}
+.groupOtherRight .otherContent{
+    width: 692px;
+    height: 21px;
+    font-size: 14px;
+    background: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+/*右*/
+.content .secondContent {
+    float: right;
+    width: 300px;
+    height: 424px;
+    padding: 30px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    background: #ffffff;
+}
+
+.secondContent .containerS {
+    width: 100%;
+    height: 100%;
+}
+
+.containerS .name, .containerS .telephone, .containerS .email{
+    width: 100%;
+    height: 36px;
+    margin-bottom: 20px;
+    border: 1px solid #f0f2f5;
+}
+
+.name input, .telephone input, .email input {
+    width: 200px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 6px;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+
+.containerS .message{
+    width: 100%;
+    height: 124px;
+    margin-bottom: 20px;
+    border: 1px solid #f0f2f5;
+}
+textarea:focus{
+    outline: none;
+}
+.message textarea{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+}
+.containerS .code {
+    width: 100%;
+    height: 36px;
+    margin-bottom: 20px;
+    border: 1px solid #f0f2f5;
+}
+.code input{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+}
+.code .codeIcon{
+    float: right;
+    width: 91px;
+    height: 26px;
+    padding: 5px 10px;
+    background: #f3f7f9;
+}
+.codeIcon img{
+    width: 100%;
+    height: 100%;
+}
+.containerS button{
+    color: #ffffff;
+    width: 100%;
+    height: 36px;
+    background: #62a8ea;
+    border: none;
+}
+/*home*/
+
+.footer {
+    width: 100%;
+    height: 160px;
+    border-top: 1px solid #f0f2f5;
+    padding-top: 20px;
+}
+
+.footerContent {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #f5f5f5;
+}
+
+.icon {
+    width: 100%;
+    height: 56px;
+    margin: 0 auto;
+
+}
+
+.icon .iconContent {
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.icon .iconContent img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    float: left;
+}
+
+.phone {
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+
+}
+
+.phone .choose {
+    height: 20px;
+    padding: 5px 0;
+}
+
+.phone .choose a {
+    color: #42a6fa;
+}
+
+.phone .choose a:hover {
+    text-decoration: underline;
+}
+
+.phone p {
+    text-align: center;
+    font: 14px "Microsoft YaHei UI";
+    line-height: 25px;
+    color: #aaaaaa;
+}
+
+/*footer*/

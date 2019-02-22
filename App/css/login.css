@@ -1,0 +1,164 @@
+.big {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url("../image/background.png");
+    background-size: cover;
+}
+
+#header {
+    width: 100%;
+    height: 100%;
+
+}
+
+.container {
+    width: 7.01rem;
+    height: 0.91rem;
+    min-height: 1px;
+    margin: 0 auto;
+}
+
+.topBar {
+    width: 100%;
+    height: 100%;
+}
+
+.topBar .back {
+    float: left;
+    font-family: "iconfont";
+    color: #5e5e5f;
+    font-size: 0.36rem;
+    font-weight: 600;
+    line-height: 0.91rem;
+}
+
+
+.topBar .login {
+    float: right;
+    font-size: 0.26rem;
+    line-height: 0.91rem;
+}
+
+#message {
+    width: 6.64rem;
+    height: 4.5rem;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 24px 0px rgba(229, 229, 229, 0.8);
+    margin: 1.5rem auto 0;
+    padding-top: 0.05rem;
+}
+
+#message .messageContent {
+    width: 5.5rem;
+    height: 1.2rem;
+    margin: 0.5rem auto 0;
+}
+
+.messageContent .name {
+    font-size: 0.28rem;
+    font-weight: 600;
+}
+.messageContent .userName {
+    margin-top: 0.25rem;
+}
+.userName input{
+    border: none;
+}
+.userName input:focus{
+    outline: none;
+}
+
+.line {
+    width: 5.5rem;
+    height: 0.02rem;
+    background: rgba(199, 199, 199, 0.6);
+    margin: 0.2rem auto 0;
+}
+
+#message .forget {
+    width: 5.5rem;
+    height: 0.3rem;
+    margin: 0.3rem auto;
+}
+
+.forget .forgetIcon {
+    font-family: "iconfont";
+    float: left;
+    margin-top: 0.02rem;
+    margin-right: 0.1rem;
+    font-size: 14px;
+    color: #ff6700;
+    line-height: 0.3rem;
+    font-weight: 600;
+
+}
+
+.forget p {
+    float: left;
+    font-size: 0.24rem;
+    line-height: 0.3rem;
+    color: #aaaaaa;
+}
+
+#Button {
+    width: 6.64rem;
+    height: 1.12rem;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 24px 0px rgba(229, 229, 229, 0.8);
+    margin: 0.64rem auto 0;
+}
+
+#Button p {
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 1.12rem;
+    font-weight: 600;
+}
+
+.content {
+    width: 3rem;
+    height: 0.4rem;
+    margin: 1.17rem auto 0;
+}
+
+.content p {
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 0.4rem;
+    color: #474747;
+}
+
+.tag {
+    width: 2rem;
+    height: 0.6rem;
+    margin: 0.3rem auto 0;
+}
+
+.tag .tagCircleQ {
+    float: left;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-image: linear-gradient(0deg, #5c58ed 0%, #7f86ea 100%);
+    box-shadow: 0px 1px 7px 0px rgba(101, 100, 236, 0.65);
+    border-radius: 0.3rem;
+}
+
+.tagCircleQ .QQ, .tagCircleW .chat {
+    font-family: "iconfont";
+    color: #ffffff;
+    line-height: 0.6rem;
+    font-size: 20px;
+    margin-left: 0.12rem;
+}
+
+.tag .tagCircleW {
+    float: right;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-image: linear-gradient(0deg, #8eed58 0%, #9eea7f 100%);
+    box-shadow: 0px 1px 7px 0px rgba(145, 236, 95, 0.65);
+    border-radius: 0.3rem;
+}
+
+

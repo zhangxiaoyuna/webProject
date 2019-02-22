@@ -1,0 +1,359 @@
+.nav {
+    width: 100%;
+    height: 79px;
+    background: #ffffff;
+    z-index: 999;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+.navList li {
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+
+.navList li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: .5s;
+}
+
+/*当鼠标移上时,变颜色*/
+.navList li a:hover {
+    color: #16b0bc;
+}
+
+/*nav*/
+.empty {
+    width: 100%;
+    height: 79px;
+}
+
+.home {
+    width: 100%;
+    height: 1350px;
+    background: #f5f5f5;
+}
+
+.home .title {
+    width: 100%;
+    height: 120px;
+}
+
+.title h3 {
+    text-align: center;
+    line-height: 120px;
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.home .homeContent {
+    width: 100%;
+    height: 1350px;
+    padding: 30px 0px;
+}
+
+.homeContent .content {
+    width: 1310px;
+    height: 1100px;
+    margin: 0 auto;
+}
+
+.content .firstContent {
+    float: left;
+    width: 920px;
+    height: 1100px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    background: #ffffff;
+}
+
+.firstContent .contentC {
+    width: 100%;
+    height: 100%;
+}
+
+.contentC .container {
+    width: 100%;
+    height: 95%;
+}
+
+.container .containerContent {
+    width: 100%;
+    height: 160px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f0f2f5;
+}
+
+.containerContent .containerImage {
+    float: left;
+    width: 160px;
+    height: 180px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.containerImage img {
+    width: 160px;
+    height: 160px;
+}
+
+.containerContent .containerTitle {
+    float: right;
+    width: 740px;
+    height: 180px;
+}
+
+.containerTitle a {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #37474f;
+}
+
+.containerTitle p {
+    color: #76838f;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.containerTitle .info {
+    width: 200px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.info .infoTime, .info .infoAuthor {
+    color: #a3afb7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.info .infoSeek {
+    width: 40px;
+    height: 100%;
+}
+
+.infoSeek .seek, .infoSeek p {
+    font-family: "iconfont";
+    color: #a3afb7;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.infoSeek .seek {
+    float: left;
+}
+
+.infoSeek p {
+    float: right;
+}
+
+.content .secondContent {
+    float: right;
+    width: 260px;
+    height: 354px;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    background: #ffffff;
+}
+
+.secondContent .containerS {
+    width: 100%;
+    height: 100%;
+}
+
+.containerS .search {
+    width: 100%;
+    height: 36px;
+    margin-bottom: 20px;
+    border: 1px solid #f0f2f5;
+    border-radius: 100px;
+    position: relative;
+}
+
+.search input {
+    width: 200px;
+    height: 25px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 6px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search .searchIcon {
+    width: 20px;
+    height: 26px;
+    padding: 5px 10px;
+    position: absolute;
+    right: 10px;
+}
+
+.searchIcon .iconS {
+    font-family: "iconfont";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.containerS .re {
+    width: 100%;
+    height: 180px;
+    padding: 20px 0;
+    border-top: 1px solid #f0f2f5;
+    border-bottom: 1px solid #f0f2f5;
+}
+
+.re p {
+    font-size: 18px;
+    color: #37474f;
+}
+
+.re .list-group {
+    width: 100%;
+    height: 140px;
+    margin-top: 10px;
+}
+
+.list-group .list-group-item {
+    width: 228px;
+    height: 24px;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid #e4eaec;
+}
+
+.list-group-item a {
+    color: #2a333c;
+    font-size: 15px;
+}
+
+.list-group .list-group-item a:hover, .row a:hover, .containerContent .containerTitle a:hover {
+    color: #16b0bc;
+    text-decoration: underline;
+}
+
+.containerS .row {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.row a {
+    font-size: 16px;
+    color: #2a333c;
+}
+
+/*home*/
+
+.footer {
+    width: 100%;
+    height: 160px;
+    border-top: 1px solid #f0f2f5;
+    padding-top: 20px;
+}
+
+.footerContent {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #f5f5f5;
+}
+
+.icon {
+    width: 100%;
+    height: 56px;
+    margin: 0 auto;
+
+}
+
+.icon .iconContent {
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.icon .iconContent img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    float: left;
+}
+
+.phone {
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+
+}
+
+.phone .choose {
+    height: 20px;
+    padding: 5px 0;
+}
+
+.phone .choose a {
+    color: #42a6fa;
+}
+
+.phone .choose a:hover {
+    text-decoration: underline;
+}
+
+.phone p {
+    text-align: center;
+    font: 14px "Microsoft YaHei UI";
+    line-height: 25px;
+    color: #aaaaaa;
+}
+
+/*footer*/

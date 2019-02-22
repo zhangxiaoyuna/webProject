@@ -1,0 +1,29 @@
+/*去掉标签的默认样式*/
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font: 16px/1.5 "Microsoft YaHei UI", "sans-serif";
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+i{
+    font-style: normal;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 1027546 */
+    src: url('//at.alicdn.com/t/font_1027546_o2k05t1xvsn.eot');
+    src: url('//at.alicdn.com/t/font_1027546_o2k05t1xvsn.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1027546_o2k05t1xvsn.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1027546_o2k05t1xvsn.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1027546_o2k05t1xvsn.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1027546_o2k05t1xvsn.svg#iconfont') format('svg');
+}

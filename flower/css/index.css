@@ -1,0 +1,398 @@
+.nav {
+    width: 100%;
+    height: 79px;
+    background: #ffffff;
+    z-index: 999;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navContent {
+    width: 1170px; /*内宽*/
+    height: 100%; /*父元素高*/
+    margin: 0 auto; /*一个元素在另一个元素中水平居中 保证在每个浏览器都能运行*/
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right; /*往右边浮动*/
+}
+
+/*行内元素（无宽高属性）*/
+.logo a {
+    display: block; /*行内元素变成块元素*/
+    width: 100%;
+    height: 100%;
+}
+
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+.navList li {
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+
+.navList li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center; /*水平*/
+    line-height: 79px; /*垂直*/
+    font-size: 14px;
+    transition: .5s /*过渡属性：颜色 时间 方式 延迟*/
+}
+
+/*当鼠标移上时,变颜色*/
+.navList li a:hover {
+    color: #16b0bc;
+}
+
+/*nav*/
+.banner {
+    width: 100%;
+    height: 720px;
+    background: #cccccc;
+}
+
+.banner img {
+    width: 100%;
+    height: 720px;
+}
+
+/*banner*/
+.home {
+    width: 100%;
+    height: 850px;
+}
+
+.homeContent {
+    width: 1220px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.title {
+    width: 1220px;
+    height: 43px;
+    margin: 0 auto;
+}
+
+.title h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.firstContent {
+    width: 1220px;
+    height: 20px;
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+
+.firstContent p {
+    text-align: center;
+    font: 18px "Microsoft YaHei UI";
+}
+
+.secondContent {
+    width: 1220px;
+    height: 192px;
+}
+
+.secondContent p {
+    text-align: center;
+    font: 18px "Microsoft YaHei UI";
+    line-height: 35px;
+}
+
+.location {
+    width: 1220px;
+    height: 334px;
+    margin-top: 30px;
+}
+
+/*home*/
+.article {
+    width: 100%;
+    height: 750px;
+    background: #f5f5f5;
+}
+
+.articleContent {
+    width: 1220px;
+    height: 610px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.articleContent h3 {
+    height: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.articleList {
+    width: 100%;
+    height: 560px;
+}
+
+.articleList .articleItem {
+    width: 600px;
+    height: 110px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+/*同倍选择器 偶数去掉 2n或even偶数 2n+1或odd奇数*/
+.articleList .articleItem:nth-of-type(even) {
+    margin-right: 0;
+}
+
+.articleItem .itemThumb {
+    float: left;
+    width: 160px;
+    height: 96px;
+}
+
+.itemThumb a, .itemThumb a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.articleItem .itemInfo {
+    float: right;
+    width: 420px;
+    height: 100%;
+    font-size: 16px;
+    color: #76838f;
+}
+
+/*单行文本超出变省略*/
+.itemInfo h2 a {
+    display: block;
+    white-space: nowrap; /*不能换行*/
+    overflow: hidden; /*隐藏多余文字*/
+    text-overflow: ellipsis; /*多余文字变省略号*/
+
+    font-weight: 400;
+    font-size: 18px;
+    transition: all ease .5s;
+}
+
+.itemInfo h2 a:hover {
+    color: #42a6fa;
+    text-decoration: underline;
+}
+
+/*多行文本超出省略*/
+.itemInfo p.infoDesc {
+    padding: 5px 0;
+    height: 2.8em;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.itemInfo p.infoDesc::after {
+    content: '...';
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*article*/
+.footer {
+    width: 100%;
+    height: 160px;
+    border-top: 1px solid #f0f2f5;
+    padding-top: 20px;
+}
+
+.footerContent {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #f5f5f5;
+}
+.icon{
+    width: 100%;
+    height: 56px;
+    margin: 0 auto;
+
+}
+.icon .iconContent{
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.icon .iconContent img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    float: left;
+}
+
+.phone {
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+
+}
+.phone .choose{
+    height: 20px;
+    padding: 5px 0;
+}
+.phone .choose a{
+    color: #42a6fa;
+}
+.phone .choose a:hover{
+    text-decoration: underline;
+}
+
+.phone p {
+    text-align: center;
+    font: 14px "Microsoft YaHei UI";
+    line-height: 25px;
+    color: #aaaaaa;
+}
+
+/*footer*/
+.aside {
+    width: 100%;
+    height: 850px;
+    padding: 30px 0;
+    background: #fff;
+}
+
+.asideContent {
+    width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+    padding: 40px 0;
+    line-height: 60px;
+}
+
+.asideItem {
+    width: 1200px;
+    height: 600px;
+    margin-top: 30px;
+
+}
+
+.asideContent h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.asideContent p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.asideItem .asideList, .asideLeft, .asideRight {
+    display: inline-block;
+    float: left;
+    width: 500px;
+    height: 600px;
+}
+
+.asideItem .asideLeft, .asideItem .asideRight {
+    float: left;
+    width: 60px;
+    height: 650px;
+}
+
+.asideItem .asideList {
+    width: 1050px;
+    height: 650px;
+    overflow: hidden;
+}
+
+.asideLeft a img, .asideRight a img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 300px 15px;
+}
+
+.asideList .middleContent {
+    width: 1800px;
+    height: 100%;
+
+}
+
+.middleContent .middleSlide {
+    float: left;
+    width: 330px;
+    height: 100%;
+    margin-right: 30px;
+
+}
+.middleSlide img{
+    border-radius: 165px;/*圆角*/
+    float: left;
+    width: 330px;
+    height: 330px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.middleSlide .smallTitle{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.middleSlide .essay{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.middleSlide div{
+    width: 100%;
+    height: 36px;
+    background: #f96868;
+    border-radius: 5px;
+}
+.middleSlide div a{
+    display: block;
+    width: 330px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+}
+.middleSlide div a i{
+    color: #9c2115;
+}
+.middleSlide div p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 36px;
+    color: #333333;
+}
+
+/*aside*/
